@@ -6,83 +6,19 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		815D9C7F1E95147900D6DE45 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815D9C7E1E95147900D6DE45 /* main.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		815D9C791E95147900D6DE45 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		815D9C7B1E95147900D6DE45 /* ClassExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ClassExample; sourceTree = BUILT_PRODUCTS_DIR; };
-		815D9C7E1E95147900D6DE45 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		815D9C851E9514A600D6DE45 /* ClassExample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ClassExample.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		815D9C781E95147900D6DE45 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		815D9C721E95147900D6DE45 = {
 			isa = PBXGroup;
 			children = (
-				815D9C7D1E95147900D6DE45 /* ClassExample */,
-				815D9C7C1E95147900D6DE45 /* Products */,
+				815D9C851E9514A600D6DE45 /* ClassExample.playground */,
 			);
-			sourceTree = "<group>";
-		};
-		815D9C7C1E95147900D6DE45 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				815D9C7B1E95147900D6DE45 /* ClassExample */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		815D9C7D1E95147900D6DE45 /* ClassExample */ = {
-			isa = PBXGroup;
-			children = (
-				815D9C7E1E95147900D6DE45 /* main.swift */,
-			);
-			path = ClassExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		815D9C7A1E95147900D6DE45 /* ClassExample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 815D9C821E95147900D6DE45 /* Build configuration list for PBXNativeTarget "ClassExample" */;
-			buildPhases = (
-				815D9C771E95147900D6DE45 /* Sources */,
-				815D9C781E95147900D6DE45 /* Frameworks */,
-				815D9C791E95147900D6DE45 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ClassExample;
-			productName = ClassExample;
-			productReference = 815D9C7B1E95147900D6DE45 /* ClassExample */;
-			productType = "com.apple.product-type.tool";
-		};
-/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		815D9C731E95147900D6DE45 /* Project object */ = {
@@ -91,13 +27,6 @@
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Russell Gordon";
-				TargetAttributes = {
-					815D9C7A1E95147900D6DE45 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = U2ZN2W2UQJ;
-						ProvisioningStyle = Automatic;
-					};
-				};
 			};
 			buildConfigurationList = 815D9C761E95147900D6DE45 /* Build configuration list for PBXProject "ClassExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -107,25 +36,13 @@
 				en,
 			);
 			mainGroup = 815D9C721E95147900D6DE45;
-			productRefGroup = 815D9C7C1E95147900D6DE45 /* Products */;
+			productRefGroup = 815D9C721E95147900D6DE45;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				815D9C7A1E95147900D6DE45 /* ClassExample */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		815D9C771E95147900D6DE45 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				815D9C7F1E95147900D6DE45 /* main.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		815D9C801E95147900D6DE45 /* Debug */ = {
@@ -216,24 +133,6 @@
 			};
 			name = Release;
 		};
-		815D9C831E95147900D6DE45 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		815D9C841E95147900D6DE45 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -245,14 +144,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		815D9C821E95147900D6DE45 /* Build configuration list for PBXNativeTarget "ClassExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				815D9C831E95147900D6DE45 /* Debug */,
-				815D9C841E95147900D6DE45 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
