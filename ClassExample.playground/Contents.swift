@@ -32,16 +32,14 @@ import PlaygroundSupport
  
  */
 // Create an object of type Canvas, named "canvas"
-let canvas = Canvas(width: 500, height: 500)
+let canvas = Canvas(width: 400, height: 400)
 
 // Create an object of type Image, named "image"
 let image = Image(drawOn: canvas)
 
-// You can "tweak" or develop new functionality in the playground below...
 
-// Draw a rectangle on the canvas
-canvas.drawRectangle(centreX: 50, centreY: 50, width: 25, height: 25)
-canvas.drawText(message: "This square is drawn from the playground directly.", size: 12, x: 75, y: 40)
+
+
 
 /*:
  ## Template code
